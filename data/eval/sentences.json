@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "note": "Controlled evaluation set for offline field-note transcription. Generated as audio by src/make-fixtures.mjs using the Windows SAPI voice, so the set is deterministic and regenerable. 'category' separates plain speech from speech dense in bird names, which is where small Whisper models are expected to struggle.",
+    "voice": "Microsoft Zira Desktop",
+    "license": "CC0-1.0"
+  },
+  "sentences": [
+    { "id": "ord-01", "category": "ordinary", "text": "I am sitting at a desk near the window and it is very warm this afternoon." },
+    { "id": "ord-02", "category": "ordinary", "text": "We should buy some bread and milk on the way home tonight." },
+    { "id": "ord-03", "category": "ordinary", "text": "The road was closed because of water lying across it after the storm." },
+    { "id": "ord-04", "category": "ordinary", "text": "Please remember to bring the camera and the spare batteries tomorrow morning." },
+    { "id": "ord-05", "category": "ordinary", "text": "There were three people waiting outside the office for the bus." },
+    { "id": "ord-06", "category": "ordinary", "text": "He told me the shop opens at half past six on weekdays." },
+    { "id": "ord-07", "category": "ordinary", "text": "My phone battery is nearly flat and the charger is in the other room." },
+    { "id": "ord-08", "category": "ordinary", "text": "The meeting has been moved from Tuesday to Thursday because of the holiday." },
+
+    { "id": "sp-01", "category": "species", "text": "Purple heron over the temple tank at first light." },
+    { "id": "sp-02", "category": "species", "text": "Brahminy kite circling very high above the paddy field." },
+    { "id": "sp-03", "category": "species", "text": "White-throated kingfisher on a post by the canal." },
+    { "id": "sp-04", "category": "species", "text": "Red-vented bulbul calling from the hedge." },
+    { "id": "sp-05", "category": "species", "text": "Asian koel calling at two in the morning." },
+    { "id": "sp-06", "category": "species", "text": "Grey-headed swamphen in the reeds by the tank." },
+    { "id": "sp-07", "category": "species", "text": "Caspian tern flying low over the lagoon." },
+    { "id": "sp-08", "category": "species", "text": "Common redshank and little stint on the mudflat." },
+    { "id": "sp-09", "category": "species", "text": "Painted stork fishing in the shallow water." },
+    { "id": "sp-10", "category": "species", "text": "Little cormorant drying its wings on a branch." },
+    { "id": "sp-11", "category": "species", "text": "Indian robin on the wall by the gate." },
+    { "id": "sp-12", "category": "species", "text": "Oriental magpie robin in the middle of the road." },
+    { "id": "sp-13", "category": "species", "text": "Paddyfield pipit on a bare patch of ground." },
+    { "id": "sp-14", "category": "species", "text": "Rose-ringed parakeet flocking in the avenue trees at dusk." },
+    { "id": "sp-15", "category": "species", "text": "Black-headed ibis in the drying shallows." },
+    { "id": "sp-16", "category": "species", "text": "Pied kingfisher rattling from a wire." },
+    { "id": "sp-17", "category": "species", "text": "Pheasant-tailed jacana on the floating vegetation." },
+    { "id": "sp-18", "category": "species", "text": "Oriental darter low over the water at dawn." },
+    { "id": "sp-19", "category": "species", "text": "Asian openbill flock in a drying paddy field." },
+    { "id": "sp-20", "category": "species", "text": "White-browed fantail moving through the scrub." },
+    { "id": "sp-21", "category": "species", "text": "Indian paradise flycatcher in the garden this morning." },
+    { "id": "sp-22", "category": "species", "text": "Coppersmith barbet on the neem tree." },
+    { "id": "sp-23", "category": "species", "text": "Common hoopoe walking on the grass." },
+    { "id": "sp-24", "category": "species", "text": "Shikra hunting over the open ground." },
+
+    { "id": "mix-01", "category": "mixed", "text": "Two purple herons and one little egret in the tank before sunrise." },
+    { "id": "mix-02", "category": "mixed", "text": "Redshank and greenshank on the mudflat, low tide, about twenty birds." },
+    { "id": "mix-03", "category": "mixed", "text": "Heard the Asian koel again at half past two, very loud, from the temple street." },
+    { "id": "mix-04", "category": "mixed", "text": "Five painted storks and a few cormorants in the shallows near the bridge." },
+    { "id": "mix-05", "category": "mixed", "text": "Brahminy kite, white-throated kingfisher and rose-ringed parakeet all in one tree." },
+    { "id": "mix-06", "category": "mixed", "text": "Recorded at Pichavaram jetty at seven in the morning, light wind, noisy." }
+  ]
+}

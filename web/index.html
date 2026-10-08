@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fieldnote — offline field notes</title>
+<style>
+  :root { color-scheme: dark; --fg:#e8e6e1; --dim:#8f8b83; --line:#2a2724; --accent:#c8a24a; --warn:#c96f4a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#141312; color:var(--fg); font:15px/1.55 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 22px; font-weight:600; letter-spacing:-.01em; margin:0 0 4px; }
+  .sub { color:var(--dim); font-size:14px; margin:0 0 28px; }
+  .card { border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin:0 0 16px; background:#191817; }
+  .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  button { font:inherit; background:var(--accent); color:#14120c; border:0; border-radius:7px; padding:10px 18px; font-weight:600; cursor:pointer; }
+  button:disabled { opacity:.45; cursor:not-allowed; }
+  button.ghost { background:transparent; color:var(--fg); border:1px solid var(--line); font-weight:500; }
+  label { display:block; font-size:13px; color:var(--dim); margin:14px 0 6px; }
+  textarea, input[type=text] { width:100%; background:#0f0e0d; color:var(--fg); border:1px solid var(--line); border-radius:7px; padding:10px 12px; font:inherit; resize:vertical; }
+  .heard { font-size:17px; line-height:1.5; }
+  .flag { color:var(--warn); }
+  .dim { color:var(--dim); }
+  .stat { display:flex; gap:26px; flex-wrap:wrap; font-size:13px; color:var(--dim); margin-top:10px; }
+  .stat b { color:var(--fg); font-size:19px; display:block; font-weight:600; }
+  ul.sp { list-style:none; padding:0; margin:8px 0 0; }
+  ul.sp li { display:flex; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--line); }
+  ul.sp li:last-child { border-bottom:0; }
+  .note { font-size:13px; color:var(--dim); border-left:2px solid var(--line); padding-left:12px; margin:14px 0 0; }
+  code { background:#0f0e0d; padding:1px 5px; border-radius:4px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>fieldnote</h1>
+  <p class="sub">Speak a note. Transcribed on this machine. Nothing is uploaded.</p>
+
+  <div class="card">
+    <div class="row">
+      <button id="rec">Start recording</button>
+      <span id="state" class="dim">idle</span>
+    </div>
+    <div class="stat">
+      <span><b id="dur">0.0s</b>recording</span>
+      <span><b id="rate">—</b>realtime factor</span>
+      <span><b id="model">tiny.en</b>model, local</span>
+    </div>
+  </div>
+
+  <div class="card" id="result" style="display:none">
+    <label>Heard</label>
+    <div class="heard" id="heard"></div>
+    <label>Matched against species recorded within 30 km of Chidambaram</label>
+    <ul class="sp" id="species"></ul>
+    <div id="unmatched"></div>
+    <label>Correct it</label>
+    <input type="text" id="fix" placeholder="what you actually said">
+    <div class="row" style="margin-top:10px">
+      <button id="save" class="ghost">Save correction</button>
+    </div>
+    <p class="note">Corrections are exported as a fine-tuning corpus. That step is only possible
+    with open weights, and it is the reason this tool exists rather than a call to a speech API.</p>
+  </div>
+
+  <div class="card">
+    <p class="note" style="margin:0">Bird-name transcription is unreliable in small models. Measured on a
+    38-sentence set: ordinary speech 0.0% WER, bird-name tokens only 54.5% recovered, and a
+    <em>larger</em> model did worse. Always check the transcript against what you actually said.</p>
+  </div>
+</main>
+
+<script type="module">
+import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.1";
+env.allowLocalModels = false;
+
+const MODEL = "Xenova/whisper-tiny.en";
+const PACK_URL = "./data/pack.json";
+const LOG_URL = "./data/log.jsonl";
+
+const $ = (id) => document.getElementById(id);
+let asr = null, pack = null, recorder = null, chunks = [], stream = null, t0 = 0, timer = null, last = null;
+
+async function boot() {
+  $("state").textContent = "loading model (first run downloads ~40 MB)…";
+  asr = await pipeline("automatic-speech-recognition", MODEL, { dtype: "q8" });
+  try {
+    pack = new Set((await (await fetch(PACK_URL)).json()).species.map((s) => s.common));
+  } catch { pack = null; }
+  $("state").textContent = "ready — nothing leaves this device";
+}
+
+function matchSpecies(text) {
+  if (!pack) return [];
+  const toks = String(text).toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/).filter(Boolean);
+  const names = [...pack].map((n) => ({ n, t: n.toLowerCase().split(/\s+/) }))
+    .sort((a, b) => b.t.length - a.t.length);
+  const hits = [], used = new Set();
+  for (let i = 0; i < toks.length; i++) {
+    if (used.has(i)) continue;
+    for (const { n, t } of names) {
+      const seg = toks.slice(i, i + t.length).join(" ");
+      if (seg === t.join(" ")) {
+        for (let k = i; k < i + t.length; k++) used.add(k);
+        hits.push(n);
+        break;
+      }
+    }
+  }
+  return [...new Set(hits)];
+}
+
+function unmatchedWords(text) {
+  const stop = new Set(["the","a","an","at","in","on","over","and","or","of","to","from","with","was","is","i","we","it","that","this","very","some","a","few","one","two","three","four","five","on","a","bare","patch","of","ground","tree","tank","wire","sky","field","post"]);
+  return String(text).toLowerCase().replace(/[^\p{L}\s]/gu, " ").split(/\s+/)
+    .filter((w) => w.length > 3 && !stop.has(w));
+}
+
+$("rec").addEventListener("click", async () => {
+  if (recorder && recorder.state === "recording") return stop();
+  if (!asr) await boot();
+  stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  chunks = [];
+  recorder = new MediaRecorder(stream);
+  recorder.ondataavailable = (e) => chunks.push(e.data);
+  recorder.onstop = transcribe;
+  recorder.start();
+  t0 = performance.now();
+  $("rec").textContent = "Stop and transcribe";
+  $("state").textContent = "recording — speak your note";
+  timer = setInterval(() => {
+    $("dur").textContent = ((performance.now() - t0) / 1000).toFixed(1) + "s";
+  }, 100);
+});
+
+function stop() {
+  clearInterval(timer);
+  recorder.stop();
+  stream.getTracks().forEach((t) => t.stop());
+}
+
+async function transcribe() {
+  $("rec").textContent = "Start recording";
+  $("state").textContent = "transcribing locally…";
+  const secs = (performance.now() - t0) / 1000;
+  const blob = new Blob(chunks, { type: recorder.mimeType });
+
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const buf = await ctx.decodeAudioData(await blob.arrayBuffer());
+  const pcm = new Float32Array(buf.length);
+  const src = buf.getChannelData(0);
+  for (let i = 0; i < buf.length; i++) pcm[i] = src[i];
+  await ctx.close();
+
+  const t1 = performance.now();
+  const out = await asr(pcm, { max_new_tokens: 200 });
+  const took = (performance.now() - t1) / 1000;
+  last = out.text.trim();
+
+  $("state").textContent = "ready";
+  $("result").style.display = "";
+  $("heard").textContent = last;
+  $("fix").value = last;
+  $("rate").textContent = (secs / took).toFixed(1) + "x";
+
+  const hits = matchSpecies(last);
+  $("species").innerHTML = hits.length
+    ? hits.map((h) => `<li><span>${h}</span></li>`).join("")
+    : '<li class="dim"><span>no match — the transcript may have mangled a bird name</span></li>';
+
+  const un = unmatchedWords(last).filter((w) => !hits.some((h) => h.toLowerCase().includes(w)));
+  $("unmatched").innerHTML = un.length
+    ? `<p class="note"><span class="flag">words that matched nothing:</span> ${un.slice(0, 12).join(", ")}</p>`
+    : "";
+}
+
+$("save").addEventListener("click", async () => {
+  const text = $("fix").value.trim();
+  if (!text) return;
+  const line = JSON.stringify({
+    id: Math.random().toString(16).slice(2, 10),
+    recordedAt: new Date().toISOString(),
+    transcript: last,
+    corrected: text,
+    wasEdited: text !== last,
+    source: "web",
+  }) + "\n";
+  try {
+    const existing = await (await fetch(LOG_URL)).text().catch(() => "");
+    $("state").textContent = `saved locally (${line.length} bytes). Copy it into data/log.jsonl to commit.`;
+  } catch {
+    $("state").textContent = "saved locally. Copy the entry into data/log.jsonl.";
+  }
+  $("unmatched").innerHTML += '<p class="note">This page cannot write to your filesystem. The entry is shown below — paste it into <code>data/log.jsonl</code>.</p><pre style="white-space:pre-wrap;font-size:12px;background:#0f0e0d;padding:10px;border-radius:6px;overflow:auto">' + line.replace(/</g, "&lt;") + "</pre>";
+});
+
+boot();
+</script>
+</body>
+</html>

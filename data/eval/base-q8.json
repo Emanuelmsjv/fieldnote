@@ -1,0 +1,375 @@
+{
+  "model": "Xenova/whisper-base.en",
+  "dtype": "q8",
+  "label": "whisper-base.en@q8",
+  "generatedAt": "2026-10-08T16:05:36.016Z",
+  "sentences": 38,
+  "exactMatches": 18,
+  "corpusWer": 0.11267605633802817,
+  "byCategory": {
+    "ordinary": {
+      "n": 8,
+      "meanWer": 0,
+      "corpusWer": 0
+    },
+    "species": {
+      "n": 24,
+      "meanWer": 0.18030753968253968,
+      "corpusWer": 0.17415730337078653
+    },
+    "mixed": {
+      "n": 6,
+      "meanWer": 0.12979797979797977,
+      "corpusWer": 0.12162162162162163
+    }
+  },
+  "birdNameTokens": {
+    "total": 33,
+    "recovered": 16,
+    "recall": 0.48484848484848486
+  },
+  "rows": [
+    {
+      "id": "ord-01",
+      "category": "ordinary",
+      "reference": "I am sitting at a desk near the window and it is very warm this afternoon.",
+      "hypothesis": " I am sitting at a desk near the window and it is very warm this afternoon.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-02",
+      "category": "ordinary",
+      "reference": "We should buy some bread and milk on the way home tonight.",
+      "hypothesis": " We should buy some bread and milk on the way home tonight.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-03",
+      "category": "ordinary",
+      "reference": "The road was closed because of water lying across it after the storm.",
+      "hypothesis": " The road was closed because of water lying across it after the storm.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-04",
+      "category": "ordinary",
+      "reference": "Please remember to bring the camera and the spare batteries tomorrow morning.",
+      "hypothesis": " Please remember to bring the camera and the spare batteries tomorrow morning.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-05",
+      "category": "ordinary",
+      "reference": "There were three people waiting outside the office for the bus.",
+      "hypothesis": " There were three people waiting outside the office for the bus.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-06",
+      "category": "ordinary",
+      "reference": "He told me the shop opens at half past six on weekdays.",
+      "hypothesis": " He told me the shop opens at half past six on weekdays.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-07",
+      "category": "ordinary",
+      "reference": "My phone battery is nearly flat and the charger is in the other room.",
+      "hypothesis": " My phone battery is nearly flat and the charger is in the other room.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "ord-08",
+      "category": "ordinary",
+      "reference": "The meeting has been moved from Tuesday to Thursday because of the holiday.",
+      "hypothesis": " The meeting has been moved from Tuesday to Thursday because of the holiday.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-01",
+      "category": "species",
+      "reference": "Purple heron over the temple tank at first light.",
+      "hypothesis": " Purple heron over the temple tank at first light.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-02",
+      "category": "species",
+      "reference": "Brahminy kite circling very high above the paddy field.",
+      "hypothesis": " From any kite circling very high above the patty field.",
+      "wer": 0.3333333333333333,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-03",
+      "category": "species",
+      "reference": "White-throated kingfisher on a post by the canal.",
+      "hypothesis": " White-throated kingfisher on a post by the canal.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-04",
+      "category": "species",
+      "reference": "Red-vented bulbul calling from the hedge.",
+      "hypothesis": " Red vented bulbal calling from the hedge.",
+      "wer": 0.5,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-05",
+      "category": "species",
+      "reference": "Asian koel calling at two in the morning.",
+      "hypothesis": " Asian Coel calling at 2 in the morning.",
+      "wer": 0.125,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-06",
+      "category": "species",
+      "reference": "Grey-headed swamphen in the reeds by the tank.",
+      "hypothesis": " Grey-headed swamfen in the reeds by the tank.",
+      "wer": 0.125,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-07",
+      "category": "species",
+      "reference": "Caspian tern flying low over the lagoon.",
+      "hypothesis": " Caspian turn flying low over the lagoon.",
+      "wer": 0.14285714285714285,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-08",
+      "category": "species",
+      "reference": "Common redshank and little stint on the mudflat.",
+      "hypothesis": " Common red shank and little stint on the mud flat.",
+      "wer": 0.5,
+      "birdRefs": 2,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-09",
+      "category": "species",
+      "reference": "Painted stork fishing in the shallow water.",
+      "hypothesis": " Painted stalk fishing in the shallow water.",
+      "wer": 0.14285714285714285,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-10",
+      "category": "species",
+      "reference": "Little cormorant drying its wings on a branch.",
+      "hypothesis": " Little Cormorant drying its wings on a branch.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-11",
+      "category": "species",
+      "reference": "Indian robin on the wall by the gate.",
+      "hypothesis": " Indian Robin on the Wall by the Gate.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-12",
+      "category": "species",
+      "reference": "Oriental magpie robin in the middle of the road.",
+      "hypothesis": " Oriental Magpie Robin in the middle of the road.",
+      "wer": 0,
+      "birdRefs": 2,
+      "birdHits": 2
+    },
+    {
+      "id": "sp-13",
+      "category": "species",
+      "reference": "Paddyfield pipit on a bare patch of ground.",
+      "hypothesis": " Patty Field Pippet on a bare patch of ground",
+      "wer": 0.375,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-14",
+      "category": "species",
+      "reference": "Rose-ringed parakeet flocking in the avenue trees at dusk.",
+      "hypothesis": " Roseringed parakeet flocking in the Avonutries at dusk.",
+      "wer": 0.3333333333333333,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-15",
+      "category": "species",
+      "reference": "Black-headed ibis in the drying shallows.",
+      "hypothesis": " Black-headed ibis in the drying shallows.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-16",
+      "category": "species",
+      "reference": "Pied kingfisher rattling from a wire.",
+      "hypothesis": " Pied King Fisher rattling from a wire.",
+      "wer": 0.3333333333333333,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-17",
+      "category": "species",
+      "reference": "Pheasant-tailed jacana on the floating vegetation.",
+      "hypothesis": " Fesent-tailed jack-in-a on the floating vegetation.",
+      "wer": 0.3333333333333333,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-18",
+      "category": "species",
+      "reference": "Oriental darter low over the water at dawn.",
+      "hypothesis": " Oriental darter low over the water at dawn.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-19",
+      "category": "species",
+      "reference": "Asian openbill flock in a drying paddy field.",
+      "hypothesis": " Asian Open Bill Flock in a drying paddy field.",
+      "wer": 0.25,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-20",
+      "category": "species",
+      "reference": "White-browed fantail moving through the scrub.",
+      "hypothesis": " White-browed fan-tail moving through the scrub.",
+      "wer": 0.16666666666666666,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-21",
+      "category": "species",
+      "reference": "Indian paradise flycatcher in the garden this morning.",
+      "hypothesis": " Indian paradise flycatcher in the garden this morning.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "sp-22",
+      "category": "species",
+      "reference": "Coppersmith barbet on the neem tree.",
+      "hypothesis": " Coppersmith Barbit on the name Tree",
+      "wer": 0.3333333333333333,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-23",
+      "category": "species",
+      "reference": "Common hoopoe walking on the grass.",
+      "hypothesis": " Common Hoopoo Walking on the Grass",
+      "wer": 0.16666666666666666,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "sp-24",
+      "category": "species",
+      "reference": "Shikra hunting over the open ground.",
+      "hypothesis": " Shekra hunting over the open ground.",
+      "wer": 0.16666666666666666,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "mix-01",
+      "category": "mixed",
+      "reference": "Two purple herons and one little egret in the tank before sunrise.",
+      "hypothesis": " Two purple herons and one little egret in the tank before sunrise.",
+      "wer": 0,
+      "birdRefs": 1,
+      "birdHits": 1
+    },
+    {
+      "id": "mix-02",
+      "category": "mixed",
+      "reference": "Redshank and greenshank on the mudflat, low tide, about twenty birds.",
+      "hypothesis": " Red shank and green shank on the mudflat, low tide, about 20 birds.",
+      "wer": 0.36363636363636365,
+      "birdRefs": 2,
+      "birdHits": 0
+    },
+    {
+      "id": "mix-03",
+      "category": "mixed",
+      "reference": "Heard the Asian koel again at half past two, very loud, from the temple street.",
+      "hypothesis": " Heard the Asian Koal again at half past two, very loud, from the Temple Street.",
+      "wer": 0.06666666666666667,
+      "birdRefs": 1,
+      "birdHits": 0
+    },
+    {
+      "id": "mix-04",
+      "category": "mixed",
+      "reference": "Five painted storks and a few cormorants in the shallows near the bridge.",
+      "hypothesis": " 5 painted storks and a few cormorants in the shallows near the bridge.",
+      "wer": 0,
+      "birdRefs": 0,
+      "birdHits": 0
+    },
+    {
+      "id": "mix-05",
+      "category": "mixed",
+      "reference": "Brahminy kite, white-throated kingfisher and rose-ringed parakeet all in one tree.",
+      "hypothesis": " From any kite, white-throated kingfisher, and rose-ringed parakeet all in one tree.",
+      "wer": 0.18181818181818182,
+      "birdRefs": 3,
+      "birdHits": 3
+    },
+    {
+      "id": "mix-06",
+      "category": "mixed",
+      "reference": "Recorded at Pichavaram jetty at seven in the morning, light wind, noisy.",
+      "hypothesis": " Recorded at Picavaramjetti at 7 in the morning, light wind, noisy.",
+      "wer": 0.16666666666666666,
+      "birdRefs": 0,
+      "birdHits": 0
+    }
+  ]
+}

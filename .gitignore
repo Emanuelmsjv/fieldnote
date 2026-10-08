@@ -1,0 +1,31 @@
+node_modules/
+
+# Local model caches
+.cache/
+**/.cache/
+
+# Model weights are downloaded, never committed
+*.onnx
+*.tflite
+*.pb
+
+# Your own recordings. These are yours; add them deliberately if you want to share.
+notes/*.wav
+notes/*.m4a
+notes/*.mp3
+notes/*.ogg
+notes/*.opus
+notes/*.webm
+
+# Regenerable outputs
+docs/log.md
+data/log.csv
+data/summary.json
+
+# Logs contain location information. Treat them as private by default.
+data/log.jsonl
+
+.DS_Store
+Thumbs.db
+.env
+.env.local

@@ -1,0 +1,1322 @@
+{
+  "generatedAt": "2026-10-08T16:07:34.691Z",
+  "source": {
+    "name": "iNaturalist Research-grade-aware open observations (species_counts)",
+    "url": "https://api.inaturalist.org/v1/observations/species_counts",
+    "license": "iNaturalist terms of use; individual observations retain their own licences"
+  },
+  "place": {
+    "name": "Chidambaram, Tamil Nadu, India",
+    "lat": 11.6959,
+    "lng": 79.8,
+    "radiusKm": 30
+  },
+  "filters": {
+    "taxonId": 3,
+    "minObservations": 2,
+    "totalSeenOnHub": 165
+  },
+  "count": 130,
+  "species": [
+    {
+      "rank": "species",
+      "inatTaxonId": 8031,
+      "scientific": "Corvus splendens",
+      "common": "House Crow",
+      "observations": 45,
+      "photoUrl": "https://static.inaturalist.org/photos/58979232/medium.jpeg",
+      "key": "corvus splendens",
+      "binomial": "corvus splendens"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4943,
+      "scientific": "Egretta garzetta",
+      "common": "Little Egret",
+      "observations": 40,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/205293169/medium.jpg",
+      "key": "egretta garzetta",
+      "binomial": "egretta garzetta"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 8277,
+      "scientific": "Dicrurus macrocercus",
+      "common": "Black Drongo",
+      "observations": 38,
+      "photoUrl": "https://static.inaturalist.org/photos/251320608/medium.jpg",
+      "key": "dicrurus macrocercus",
+      "binomial": "dicrurus macrocercus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144455,
+      "scientific": "Ardea alba",
+      "common": "Great Egret",
+      "observations": 37,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56653891/medium.jpg",
+      "key": "ardea alba",
+      "binomial": "ardea alba"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 497004,
+      "scientific": "Microcarbo niger",
+      "common": "Little Cormorant",
+      "observations": 35,
+      "photoUrl": "https://static.inaturalist.org/photos/52656025/medium.jpg",
+      "key": "microcarbo niger",
+      "binomial": "microcarbo niger"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4871,
+      "scientific": "Vanellus indicus",
+      "common": "Red-wattled Lapwing",
+      "observations": 34,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/355435204/medium.jpeg",
+      "key": "vanellus indicus",
+      "binomial": "vanellus indicus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204519,
+      "scientific": "Halcyon smyrnensis",
+      "common": "White-throated Kingfisher",
+      "observations": 34,
+      "photoUrl": "https://static.inaturalist.org/photos/294107276/medium.jpeg",
+      "key": "halcyon smyrnensis",
+      "binomial": "halcyon smyrnensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4835,
+      "scientific": "Himantopus himantopus",
+      "common": "Black-winged Stilt",
+      "observations": 33,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/medium.jpg",
+      "key": "himantopus himantopus",
+      "binomial": "himantopus himantopus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4993,
+      "scientific": "Ardeola grayii",
+      "common": "Indian Pond-Heron",
+      "observations": 33,
+      "photoUrl": "https://static.inaturalist.org/photos/163066621/medium.jpeg",
+      "key": "ardeola grayii",
+      "binomial": "ardeola grayii"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 5406,
+      "scientific": "Haliastur indus",
+      "common": "Brahminy Kite",
+      "observations": 28,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/56410339/medium.jpg",
+      "key": "haliastur indus",
+      "binomial": "haliastur indus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1204,
+      "scientific": "Pavo cristatus",
+      "common": "Indian Peafowl",
+      "observations": 25,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165318600/medium.jpg",
+      "key": "pavo cristatus",
+      "binomial": "pavo cristatus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 14593,
+      "scientific": "Pycnonotus cafer",
+      "common": "Red-vented Bulbul",
+      "observations": 24,
+      "photoUrl": "https://static.inaturalist.org/photos/376012657/medium.jpg",
+      "key": "pycnonotus cafer",
+      "binomial": "pycnonotus cafer"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 2212,
+      "scientific": "Merops philippinus",
+      "common": "Blue-tailed Bee-eater",
+      "observations": 23,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41165864/medium.jpg",
+      "key": "merops philippinus",
+      "binomial": "merops philippinus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204454,
+      "scientific": "Acridotheres tristis",
+      "common": "Common Myna",
+      "observations": 23,
+      "photoUrl": "https://static.inaturalist.org/photos/354943417/medium.jpg",
+      "key": "acridotheres tristis",
+      "binomial": "acridotheres tristis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4775,
+      "scientific": "Anastomus oscitans",
+      "common": "Asian Openbill",
+      "observations": 21,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1473804/medium.jpg",
+      "key": "anastomus oscitans",
+      "binomial": "anastomus oscitans"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3879,
+      "scientific": "Tringa totanus",
+      "common": "Common Redshank",
+      "observations": 19,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/medium.jpg",
+      "key": "tringa totanus",
+      "binomial": "tringa totanus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4951,
+      "scientific": "Ardea purpurea",
+      "common": "Purple Heron",
+      "observations": 19,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/278940859/medium.jpg",
+      "key": "ardea purpurea",
+      "binomial": "ardea purpurea"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1289422,
+      "scientific": "Argya affinis",
+      "common": "Yellow-billed Babbler",
+      "observations": 19,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1901997/medium.JPG",
+      "key": "argya affinis",
+      "binomial": "argya affinis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144537,
+      "scientific": "Hydroprogne caspia",
+      "common": "Caspian Tern",
+      "observations": 17,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/medium.jpg",
+      "key": "hydroprogne caspia",
+      "binomial": "hydroprogne caspia"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 474332,
+      "scientific": "Porphyrio poliocephalus",
+      "common": "Gray-headed Swamphen",
+      "observations": 17,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/344911929/medium.jpg",
+      "key": "porphyrio poliocephalus",
+      "binomial": "porphyrio poliocephalus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 2229,
+      "scientific": "Merops orientalis",
+      "common": "Asian Green Bee-eater",
+      "observations": 16,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/7578971/medium.jpg",
+      "key": "merops orientalis",
+      "binomial": "merops orientalis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3901,
+      "scientific": "Numenius phaeopus",
+      "common": "Eurasian Whimbrel",
+      "observations": 16,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588065881/medium.jpg",
+      "key": "numenius phaeopus",
+      "binomial": "numenius phaeopus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1636180,
+      "scientific": "Butorides atricapilla",
+      "common": "Little Heron",
+      "observations": 16,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/166334459/medium.jpg",
+      "key": "butorides atricapilla",
+      "binomial": "butorides atricapilla"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4743,
+      "scientific": "Mycteria leucocephala",
+      "common": "Painted Stork",
+      "observations": 15,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/84838910/medium.jpeg",
+      "key": "mycteria leucocephala",
+      "binomial": "mycteria leucocephala"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204510,
+      "scientific": "Eudynamys scolopaceus",
+      "common": "Asian Koel",
+      "observations": 14,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/360494940/medium.jpeg",
+      "key": "eudynamys scolopaceus",
+      "binomial": "eudynamys scolopaceus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3756,
+      "scientific": "Plegadis falcinellus",
+      "common": "Glossy Ibis",
+      "observations": 13,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/247976267/medium.jpg",
+      "key": "plegadis falcinellus",
+      "binomial": "plegadis falcinellus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3978,
+      "scientific": "Actitis hypoleucos",
+      "common": "Common Sandpiper",
+      "observations": 13,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/405355875/medium.jpg",
+      "key": "actitis hypoleucos",
+      "binomial": "actitis hypoleucos"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13709,
+      "scientific": "Anthus rufulus",
+      "common": "Paddyfield Pipit",
+      "observations": 13,
+      "photoUrl": "https://static.inaturalist.org/photos/175991823/medium.jpeg",
+      "key": "anthus rufulus",
+      "binomial": "anthus rufulus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13858,
+      "scientific": "Passer domesticus",
+      "common": "House Sparrow",
+      "observations": 13,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/medium.jpg",
+      "key": "passer domesticus",
+      "binomial": "passer domesticus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144536,
+      "scientific": "Gelochelidon nilotica",
+      "common": "Gull-billed Tern",
+      "observations": 13,
+      "photoUrl": "https://static.inaturalist.org/photos/6869722/medium.jpeg",
+      "key": "gelochelidon nilotica",
+      "binomial": "gelochelidon nilotica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 2662,
+      "scientific": "Ceryle rudis",
+      "common": "Pied Kingfisher",
+      "observations": 12,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/442581673/medium.jpeg",
+      "key": "ceryle rudis",
+      "binomial": "ceryle rudis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4589,
+      "scientific": "Hydrophasianus chirurgus",
+      "common": "Pheasant-tailed Jacana",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/102281055/medium.jpg",
+      "key": "hydrophasianus chirurgus",
+      "binomial": "hydrophasianus chirurgus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 5062,
+      "scientific": "Anhinga melanogaster",
+      "common": "Oriental Darter",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/233463646/medium.jpg",
+      "key": "anhinga melanogaster",
+      "binomial": "anhinga melanogaster"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 8026,
+      "scientific": "Corvus macrorhynchos",
+      "common": "Large-billed Crow",
+      "observations": 12,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/102902467/medium.jpeg",
+      "key": "corvus macrorhynchos",
+      "binomial": "corvus macrorhynchos"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13794,
+      "scientific": "Ploceus philippinus",
+      "common": "Baya Weaver",
+      "observations": 12,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/535894219/medium.jpg",
+      "key": "ploceus philippinus",
+      "binomial": "ploceus philippinus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 18911,
+      "scientific": "Psittacula krameri",
+      "common": "Rose-ringed Parakeet",
+      "observations": 12,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035460/medium.jpg",
+      "key": "psittacula krameri",
+      "binomial": "psittacula krameri"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 145146,
+      "scientific": "Leptocoma zeylonica",
+      "common": "Purple-rumped Sunbird",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/172538925/medium.jpeg",
+      "key": "leptocoma zeylonica",
+      "binomial": "leptocoma zeylonica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 145193,
+      "scientific": "Cinnyris asiaticus",
+      "common": "Purple Sunbird",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/139909094/medium.jpg",
+      "key": "cinnyris asiaticus",
+      "binomial": "cinnyris asiaticus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 549464,
+      "scientific": "Terpsiphone paradisi",
+      "common": "Indian Paradise-Flycatcher",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/6761392/medium.jpg",
+      "key": "terpsiphone paradisi",
+      "binomial": "terpsiphone paradisi"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 979665,
+      "scientific": "Coracias benghalensis",
+      "common": "Indian Roller",
+      "observations": 12,
+      "photoUrl": "https://static.inaturalist.org/photos/289373974/medium.jpeg",
+      "key": "coracias benghalensis",
+      "binomial": "coracias benghalensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1583224,
+      "scientific": "Tachyspiza badia",
+      "common": "Shikra",
+      "observations": 12,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/26286/medium.jpg",
+      "key": "tachyspiza badia",
+      "binomial": "tachyspiza badia"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 2599,
+      "scientific": "Alcedo atthis",
+      "common": "Common Kingfisher",
+      "observations": 11,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/medium.jpg",
+      "key": "alcedo atthis",
+      "binomial": "alcedo atthis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3738,
+      "scientific": "Threskiornis melanocephalus",
+      "common": "Black-headed Ibis",
+      "observations": 11,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/259008/medium.jpg",
+      "key": "threskiornis melanocephalus",
+      "binomial": "threskiornis melanocephalus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3878,
+      "scientific": "Tringa nebularia",
+      "common": "Common Greenshank",
+      "observations": 11,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52660452/medium.jpg",
+      "key": "tringa nebularia",
+      "binomial": "tringa nebularia"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 7711,
+      "scientific": "Prinia socialis",
+      "common": "Ashy Prinia",
+      "observations": 11,
+      "photoUrl": "https://static.inaturalist.org/photos/77218788/medium.jpg",
+      "key": "prinia socialis",
+      "binomial": "prinia socialis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 8305,
+      "scientific": "Dendrocitta vagabunda",
+      "common": "Rufous Treepie",
+      "observations": 11,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/80011347/medium.jpg",
+      "key": "dendrocitta vagabunda",
+      "binomial": "dendrocitta vagabunda"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204491,
+      "scientific": "Copsychus saularis",
+      "common": "Oriental Magpie-Robin",
+      "observations": 11,
+      "photoUrl": "https://static.inaturalist.org/photos/62295683/medium.jpg",
+      "key": "copsychus saularis",
+      "binomial": "copsychus saularis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 558550,
+      "scientific": "Motacilla maderaspatensis",
+      "common": "White-browed Wagtail",
+      "observations": 11,
+      "photoUrl": "https://static.inaturalist.org/photos/445414639/medium.jpeg",
+      "key": "motacilla maderaspatensis",
+      "binomial": "motacilla maderaspatensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4576,
+      "scientific": "Metopidius indicus",
+      "common": "Bronze-winged Jacana",
+      "observations": 10,
+      "photoUrl": "https://static.inaturalist.org/photos/230157220/medium.jpg",
+      "key": "metopidius indicus",
+      "binomial": "metopidius indicus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4892,
+      "scientific": "Pluvialis squatarola",
+      "common": "Black-bellied Plover",
+      "observations": 10,
+      "photoUrl": "https://static.inaturalist.org/photos/10603462/medium.jpg",
+      "key": "pluvialis squatarola",
+      "binomial": "pluvialis squatarola"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 201282,
+      "scientific": "Gallinula chloropus",
+      "common": "Eurasian Moorhen",
+      "observations": 10,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/171773229/medium.jpg",
+      "key": "gallinula chloropus",
+      "binomial": "gallinula chloropus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 558445,
+      "scientific": "Ardea intermedia",
+      "common": "Medium Egret",
+      "observations": 10,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/451958732/medium.jpg",
+      "key": "ardea intermedia",
+      "binomial": "ardea intermedia"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 482,
+      "scientific": "Fulica atra",
+      "common": "Eurasian Coot",
+      "observations": 9,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/123574818/medium.jpg",
+      "key": "fulica atra",
+      "binomial": "fulica atra"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4954,
+      "scientific": "Ardea cinerea",
+      "common": "Grey Heron",
+      "observations": 9,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/73516715/medium.jpg",
+      "key": "ardea cinerea",
+      "binomial": "ardea cinerea"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 5268,
+      "scientific": "Milvus migrans",
+      "common": "Black Kite",
+      "observations": 9,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/547540505/medium.jpg",
+      "key": "milvus migrans",
+      "binomial": "milvus migrans"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 512092,
+      "scientific": "Sturnia pagodarum",
+      "common": "Brahminy Starling",
+      "observations": 9,
+      "photoUrl": "https://static.inaturalist.org/photos/282961525/medium.jpeg",
+      "key": "sturnia pagodarum",
+      "binomial": "sturnia pagodarum"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 979697,
+      "scientific": "Dinopium benghalense",
+      "common": "Black-rumped Flameback",
+      "observations": 9,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41039760/medium.jpg",
+      "key": "dinopium benghalense",
+      "binomial": "dinopium benghalense"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1585373,
+      "scientific": "Ardea coromanda",
+      "common": "Eastern Cattle-Egret",
+      "observations": 9,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/77613552/medium.jpg",
+      "key": "ardea coromanda",
+      "binomial": "ardea coromanda"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3017,
+      "scientific": "Columba livia",
+      "common": "Rock Pigeon",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/466776975/medium.jpg",
+      "key": "columba livia",
+      "binomial": "columba livia"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4237,
+      "scientific": "Tachybaptus ruficollis",
+      "common": "Little Grebe",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/194462197/medium.jpg",
+      "key": "tachybaptus ruficollis",
+      "binomial": "tachybaptus ruficollis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6891,
+      "scientific": "Dendrocygna javanica",
+      "common": "Lesser Whistling-Duck",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9952794/medium.jpg",
+      "key": "dendrocygna javanica",
+      "binomial": "dendrocygna javanica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13887,
+      "scientific": "Lonchura striata",
+      "common": "White-rumped Munia",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92430486/medium.jpeg",
+      "key": "lonchura striata",
+      "binomial": "lonchura striata"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 20012,
+      "scientific": "Athene brama",
+      "common": "Spotted Owlet",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89909173/medium.jpg",
+      "key": "athene brama",
+      "binomial": "athene brama"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 20969,
+      "scientific": "Upupa epops",
+      "common": "Common Hoopoe",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60494705/medium.jpg",
+      "key": "upupa epops",
+      "binomial": "upupa epops"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144733,
+      "scientific": "Oriolus kundoo",
+      "common": "Indian Golden Oriole",
+      "observations": 8,
+      "photoUrl": "https://static.inaturalist.org/photos/102169547/medium.jpg",
+      "key": "oriolus kundoo",
+      "binomial": "oriolus kundoo"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 367521,
+      "scientific": "Psilopogon haemacephalus",
+      "common": "Coppersmith Barbet",
+      "observations": 8,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/184439367/medium.jpg",
+      "key": "psilopogon haemacephalus",
+      "binomial": "psilopogon haemacephalus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 199,
+      "scientific": "Amaurornis phoenicurus",
+      "common": "White-breasted Waterhen",
+      "observations": 7,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/348262284/medium.jpg",
+      "key": "amaurornis phoenicurus",
+      "binomial": "amaurornis phoenicurus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4264,
+      "scientific": "Phalacrocorax fuscicollis",
+      "common": "Indian Cormorant",
+      "observations": 7,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60170081/medium.jpg",
+      "key": "phalacrocorax fuscicollis",
+      "binomial": "phalacrocorax fuscicollis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144511,
+      "scientific": "Chroicocephalus brunnicephalus",
+      "common": "Brown-headed Gull",
+      "observations": 7,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43104055/medium.jpg",
+      "key": "chroicocephalus brunnicephalus",
+      "binomial": "chroicocephalus brunnicephalus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 145203,
+      "scientific": "Cinnyris lotenius",
+      "common": "Loten's Sunbird",
+      "observations": 7,
+      "photoUrl": "https://static.inaturalist.org/photos/698898291/medium.jpg",
+      "key": "cinnyris lotenius",
+      "binomial": "cinnyris lotenius"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6933,
+      "scientific": "Anas acuta",
+      "common": "Northern Pintail",
+      "observations": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/353707196/medium.jpg",
+      "key": "anas acuta",
+      "binomial": "anas acuta"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 8079,
+      "scientific": "Artamus fuscus",
+      "common": "Ashy Woodswallow",
+      "observations": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/52274/medium.jpg",
+      "key": "artamus fuscus",
+      "binomial": "artamus fuscus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 14610,
+      "scientific": "Pycnonotus luteolus",
+      "common": "White-browed Bulbul",
+      "observations": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/34136260/medium.jpg",
+      "key": "pycnonotus luteolus",
+      "binomial": "pycnonotus luteolus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 15347,
+      "scientific": "Orthotomus sutorius",
+      "common": "Common Tailorbird",
+      "observations": 6,
+      "photoUrl": "https://static.inaturalist.org/photos/271256208/medium.jpg",
+      "key": "orthotomus sutorius",
+      "binomial": "orthotomus sutorius"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 73193,
+      "scientific": "Phaenicophaeus viridirostris",
+      "common": "Blue-faced Malkoha",
+      "observations": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/557086392/medium.jpg",
+      "key": "phaenicophaeus viridirostris",
+      "binomial": "phaenicophaeus viridirostris"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144792,
+      "scientific": "Cecropis daurica",
+      "common": "Eastern Red-rumped Swallow",
+      "observations": 6,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/194352839/medium.jpg",
+      "key": "cecropis daurica",
+      "binomial": "cecropis daurica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6676,
+      "scientific": "Cypsiurus balasiensis",
+      "common": "Asian Palm Swift",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/64083856/medium.jpg",
+      "key": "cypsiurus balasiensis",
+      "binomial": "cypsiurus balasiensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 7710,
+      "scientific": "Prinia inornata",
+      "common": "Plain Prinia",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/335903437/medium.jpeg",
+      "key": "prinia inornata",
+      "binomial": "prinia inornata"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 11901,
+      "scientific": "Hirundo rustica",
+      "common": "Barn Swallow",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/medium.jpg",
+      "key": "hirundo rustica",
+      "binomial": "hirundo rustica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 12021,
+      "scientific": "Lanius cristatus",
+      "common": "Brown Shrike",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/472286950/medium.jpg",
+      "key": "lanius cristatus",
+      "binomial": "lanius cristatus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13893,
+      "scientific": "Lonchura punctulata",
+      "common": "Scaly-breasted Munia",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/161725682/medium.jpeg",
+      "key": "lonchura punctulata",
+      "binomial": "lonchura punctulata"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144540,
+      "scientific": "Thalasseus bergii",
+      "common": "Great Crested Tern",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/111484687/medium.jpg",
+      "key": "thalasseus bergii",
+      "binomial": "thalasseus bergii"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1583066,
+      "scientific": "Botaurus sinensis",
+      "common": "Yellow Bittern",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32277964/medium.jpg",
+      "key": "botaurus sinensis",
+      "binomial": "botaurus sinensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1583070,
+      "scientific": "Botaurus cinnamomeus",
+      "common": "Cinnamon Bittern",
+      "observations": 5,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/194347416/medium.jpg",
+      "key": "botaurus cinnamomeus",
+      "binomial": "botaurus cinnamomeus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1583799,
+      "scientific": "Plocealauda affinis",
+      "common": "Jerdon's Bushlark",
+      "observations": 5,
+      "photoUrl": "https://static.inaturalist.org/photos/28595300/medium.jpg",
+      "key": "plocealauda affinis",
+      "binomial": "plocealauda affinis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 882,
+      "scientific": "Gallus gallus",
+      "common": "Red Junglefowl",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3784873/medium.jpg",
+      "key": "gallus gallus",
+      "binomial": "gallus gallus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1789,
+      "scientific": "Clamator jacobinus",
+      "common": "Pied Cuckoo",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/103592832/medium.jpeg",
+      "key": "clamator jacobinus",
+      "binomial": "clamator jacobinus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 5275,
+      "scientific": "Elanus caeruleus",
+      "common": "Black-winged Kite",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/183749378/medium.jpeg",
+      "key": "elanus caeruleus",
+      "binomial": "elanus caeruleus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6899,
+      "scientific": "Dendrocygna bicolor",
+      "common": "Fulvous Whistling-Duck",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/91528685/medium.jpg",
+      "key": "dendrocygna bicolor",
+      "binomial": "dendrocygna bicolor"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6925,
+      "scientific": "Anas poecilorhyncha",
+      "common": "Indian Spot-billed Duck",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4569448/medium.jpeg",
+      "key": "anas poecilorhyncha",
+      "binomial": "anas poecilorhyncha"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 7120,
+      "scientific": "Cairina moschata",
+      "common": "Muscovy Duck",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/54389963/medium.jpg",
+      "key": "cairina moschata",
+      "binomial": "cairina moschata"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 14591,
+      "scientific": "Pycnonotus jocosus",
+      "common": "Red-whiskered Bulbul",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/291201941/medium.jpg",
+      "key": "pycnonotus jocosus",
+      "binomial": "pycnonotus jocosus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 62148,
+      "scientific": "Chlidonias hybrida",
+      "common": "Whiskered Tern",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1927693/medium.jpg",
+      "key": "chlidonias hybrida",
+      "binomial": "chlidonias hybrida"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 145031,
+      "scientific": "Copsychus fulicatus",
+      "common": "Indian Robin",
+      "observations": 4,
+      "photoUrl": "https://static.inaturalist.org/photos/79214417/medium.jpg",
+      "key": "copsychus fulicatus",
+      "binomial": "copsychus fulicatus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 145099,
+      "scientific": "Gracupica contra",
+      "common": "Indian Pied Starling",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40949198/medium.jpg",
+      "key": "gracupica contra",
+      "binomial": "gracupica contra"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204559,
+      "scientific": "Otus bakkamoena",
+      "common": "Indian Scops-Owl",
+      "observations": 4,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/170104885/medium.jpeg",
+      "key": "otus bakkamoena",
+      "binomial": "otus bakkamoena"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3888,
+      "scientific": "Tringa glareola",
+      "common": "Wood Sandpiper",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621890/medium.jpg",
+      "key": "tringa glareola",
+      "binomial": "tringa glareola"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4336,
+      "scientific": "Pelecanus philippensis",
+      "common": "Spot-billed Pelican",
+      "observations": 3,
+      "photoUrl": "https://static.inaturalist.org/photos/247996356/medium.jpeg",
+      "key": "pelecanus philippensis",
+      "binomial": "pelecanus philippensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4450,
+      "scientific": "Sterna hirundo",
+      "common": "Common Tern",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144056225/medium.jpg",
+      "key": "sterna hirundo",
+      "binomial": "sterna hirundo"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4981,
+      "scientific": "Nycticorax nycticorax",
+      "common": "Black-crowned Night Heron",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/medium.jpg",
+      "key": "nycticorax nycticorax",
+      "binomial": "nycticorax nycticorax"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 7697,
+      "scientific": "Cisticola juncidis",
+      "common": "Zitting Cisticola",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/medium.jpg",
+      "key": "cisticola juncidis",
+      "binomial": "cisticola juncidis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 11896,
+      "scientific": "Hirundo smithii",
+      "common": "Wire-tailed Swallow",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29764128/medium.jpg",
+      "key": "hirundo smithii",
+      "binomial": "hirundo smithii"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 201215,
+      "scientific": "Geokichla citrina",
+      "common": "Orange-headed Thrush",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/84320863/medium.jpeg",
+      "key": "geokichla citrina",
+      "binomial": "geokichla citrina"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 578349,
+      "scientific": "Cyornis rubeculoides",
+      "common": "Blue-throated Flycatcher",
+      "observations": 3,
+      "photoUrl": "https://static.inaturalist.org/photos/167518573/medium.jpeg",
+      "key": "cyornis rubeculoides",
+      "binomial": "cyornis rubeculoides"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 979790,
+      "scientific": "Lonchura malacca",
+      "common": "Tricolored Munia",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28340851/medium.jpg",
+      "key": "lonchura malacca",
+      "binomial": "lonchura malacca"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1505780,
+      "scientific": "Anarhynchus atrifrons",
+      "common": "Tibetan Sand-Plover",
+      "observations": 3,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/500551435/medium.jpeg",
+      "key": "anarhynchus atrifrons",
+      "binomial": "anarhynchus atrifrons"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 906,
+      "scientific": "Meleagris gallopavo",
+      "common": "Wild Turkey",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31353610/medium.jpg",
+      "key": "meleagris gallopavo",
+      "binomial": "meleagris gallopavo"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1428,
+      "scientific": "Numida meleagris",
+      "common": "Helmeted Guineafowl",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/199644869/medium.jpg",
+      "key": "numida meleagris",
+      "binomial": "numida meleagris"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1677,
+      "scientific": "Centropus sinensis",
+      "common": "Greater Coucal",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50398236/medium.jpg",
+      "key": "centropus sinensis",
+      "binomial": "centropus sinensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 3969,
+      "scientific": "Xenus cinereus",
+      "common": "Terek Sandpiper",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/209189029/medium.jpeg",
+      "key": "xenus cinereus",
+      "binomial": "xenus cinereus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4270,
+      "scientific": "Phalacrocorax carbo",
+      "common": "Great Cormorant",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/141367445/medium.jpg",
+      "key": "phalacrocorax carbo",
+      "binomial": "phalacrocorax carbo"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4381,
+      "scientific": "Larus fuscus",
+      "common": "Lesser Black-backed Gull",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/706410580/medium.jpg",
+      "key": "larus fuscus",
+      "binomial": "larus fuscus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4896,
+      "scientific": "Pluvialis fulva",
+      "common": "Pacific Golden-Plover",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/262432635/medium.jpg",
+      "key": "pluvialis fulva",
+      "binomial": "pluvialis fulva"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 4935,
+      "scientific": "Egretta gularis",
+      "common": "Western Reef Heron",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/119813364/medium.jpeg",
+      "key": "egretta gularis",
+      "binomial": "egretta gularis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 6930,
+      "scientific": "Anas platyrhynchos",
+      "common": "Mallard",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/95268822/medium.jpg",
+      "key": "anas platyrhynchos",
+      "binomial": "anas platyrhynchos"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 7350,
+      "scientific": "Alauda gulgula",
+      "common": "Oriental Skylark",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/10937041/medium.jpeg",
+      "key": "alauda gulgula",
+      "binomial": "alauda gulgula"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13380,
+      "scientific": "Dicaeum erythrorhynchos",
+      "common": "Pale-billed Flowerpecker",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245858673/medium.jpeg",
+      "key": "dicaeum erythrorhynchos",
+      "binomial": "dicaeum erythrorhynchos"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 13795,
+      "scientific": "Ploceus benghalensis",
+      "common": "Black-breasted Weaver",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/23064133/medium.jpg",
+      "key": "ploceus benghalensis",
+      "binomial": "ploceus benghalensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 72839,
+      "scientific": "Eremopterix griseus",
+      "common": "Ashy-crowned Sparrow-Lark",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1902727/medium.JPG",
+      "key": "eremopterix griseus",
+      "binomial": "eremopterix griseus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 96386,
+      "scientific": "Cacomantis passerinus",
+      "common": "Grey-bellied Cuckoo",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/101762156/medium.jpeg",
+      "key": "cacomantis passerinus",
+      "binomial": "cacomantis passerinus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144458,
+      "scientific": "Pernis ptilorhynchus",
+      "common": "Oriental Honey-buzzard",
+      "observations": 2,
+      "photoUrl": "https://static.inaturalist.org/photos/292463004/medium.jpeg",
+      "key": "pernis ptilorhynchus",
+      "binomial": "pernis ptilorhynchus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 144575,
+      "scientific": "Hierococcyx varius",
+      "common": "Common Hawk-Cuckoo",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/92113073/medium.jpeg",
+      "key": "hierococcyx varius",
+      "binomial": "hierococcyx varius"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 204545,
+      "scientific": "Motacilla flava",
+      "common": "Western Yellow Wagtail",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/medium.jpg",
+      "key": "motacilla flava",
+      "binomial": "motacilla flava"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 370399,
+      "scientific": "Tyto javanica",
+      "common": "Eastern Barn Owl",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/388849682/medium.jpg",
+      "key": "tyto javanica",
+      "binomial": "tyto javanica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 472766,
+      "scientific": "Falco tinnunculus",
+      "common": "Eurasian Kestrel",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/598044895/medium.jpg",
+      "key": "falco tinnunculus",
+      "binomial": "falco tinnunculus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 512431,
+      "scientific": "Muscicapa dauurica",
+      "common": "Asian Brown Flycatcher",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2741350/medium.jpg",
+      "key": "muscicapa dauurica",
+      "binomial": "muscicapa dauurica"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1455918,
+      "scientific": "Spilopelia chinensis",
+      "common": "Spotted Dove",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/230618423/medium.jpg",
+      "key": "spilopelia chinensis",
+      "binomial": "spilopelia chinensis"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1505620,
+      "scientific": "Anarhynchus alexandrinus",
+      "common": "Kentish Plover",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/59571741/medium.jpg",
+      "key": "anarhynchus alexandrinus",
+      "binomial": "anarhynchus alexandrinus"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1505629,
+      "scientific": "Anarhynchus leschenaultii",
+      "common": "Greater Sand-Plover",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/122028030/medium.jpg",
+      "key": "anarhynchus leschenaultii",
+      "binomial": "anarhynchus leschenaultii"
+    },
+    {
+      "rank": "species",
+      "inatTaxonId": 1583069,
+      "scientific": "Botaurus flavicollis",
+      "common": "Black Bittern",
+      "observations": 2,
+      "photoUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/465758943/medium.jpg",
+      "key": "botaurus flavicollis",
+      "binomial": "botaurus flavicollis"
+    }
+  ]
+}
